@@ -1,0 +1,20 @@
+{
+    "name": "nw-testing-javascript-puppeteer-example",
+    "type": "module",
+    "main": "index.html",
+    "private": true,
+    "scripts": {
+        "postinstall": "base-volta-off-of-nwjs",
+        "test": "vitest run"
+    },
+    "devDependencies": {
+        "base-volta-off-of-nwjs": "^1.0.5",
+        "nw": "^0.86.0-3",
+        "puppeteer": "^22.6.4",
+        "selenium-webdriver": "^4.19.0",
+        "vitest": "^1.5.0"
+    },
+    "volta": {
+        "node": "21.1.0"
+    }
+}
